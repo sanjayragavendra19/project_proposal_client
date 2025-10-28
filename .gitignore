@@ -1,0 +1,53 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production build
+/build
+/dist
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# cache
+.cache/
+.tmp/
+.eslintcache
+.babel_cache/
+parcel-cache/
+
+# Optional REACT SPECIFIC
+# If using TypeScript
+*.tsbuildinfo
+
+# Optional Vite-related
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# Local environment files
+*.local
